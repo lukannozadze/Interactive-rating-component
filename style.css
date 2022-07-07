@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.main-container {
+  width: 450px;
+  height: 400px;
+  background-color: hsl(213, 19%, 18%);
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 250px;
+  position: relative;
+}
+.response {
+  width: 450px;
+  height: 400px;
+  background-color: hsl(213, 19%, 18%);
+  margin: auto;
+  margin-top: 250px;
+  border-radius: 20px;
+  text-align: center;
+}
+.response p {
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  margin: 13px 15px;
+}
+.response h1 {
+  font-family: "Overpass", sans-serif;
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 4px;
+  display: block;
+}
+.phone-img {
+  margin-top: 38px;
+}
+
+.selected p {
+  background-color: hsla(210, 17%, 12%, 0.499);
+  width: 45%;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  color: hsl(25, 97%, 53%);
+  padding-top: 7px;
+  border-radius: 20px;
+}
+.selected {
+  padding-top: 30px;
+  margin-bottom: 27px;
+}
+.hidden {
+  display: none;
+}
+.main-container h1 {
+  padding-top: 105px;
+  padding-right: 175px;
+  font-family: "Overpass", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+.main-container p {
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.submit {
+  width: 80%;
+  height: 50px;
+  background-color: hsl(25, 97%, 53%);
+  border-style: none;
+  border-radius: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+
+  font-size: large;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: 2.5px;
+  position: absolute;
+  bottom: 30px;
+  left: 45px;
+}
+.button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  border-style: none;
+  margin-bottom: -80px;
+  background-color: hsl(0, 0%, 9%);
+  cursor: pointer;
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  margin-left: 16px;
+}
+.buttons {
+  margin-top: 22px;
+  margin-left: -18px;
+}
+
+.feedback-text {
+  line-height: 25px;
+  text-align: left;
+  padding-left: 28px;
+}
+.dot-star {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border-radius: 50%;
+  background-color: hsl(0, 0%, 9%);
+  display: inline-block;
+  color: hsl(25, 97%, 53%);
+  font-size: 25px;
+  padding-top: 6px;
+}
+
+.submit:active {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+.button:active {
+  background-color: hsl(25, 97%, 53%);
+}
+.button:hover {
+  background-color: hsl(216, 12%, 54%);
+}
+.button.active {
+  background-color: hsl(25, 97%, 53%);
+}
